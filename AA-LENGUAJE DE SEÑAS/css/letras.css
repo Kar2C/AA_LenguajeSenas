@@ -1,0 +1,82 @@
+.Letra_Frontal{
+    width: 55%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
+    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
+    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
+    top: -1213px; /* Mueve el elemento hacia abajo */
+    left: 25px; /* Mueve el elemento hacia la derecha */
+    clip-path: inset(0 20% 0 20%);
+}
+.Letra_Trasera{
+    width: 55%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
+    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
+    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
+    top: -1679px; /* Mueve el elemento hacia abajo */
+    left: 660px; /* Mueve el elemento hacia la derecha */
+    clip-path: inset(0 20% 0 20%);
+}
+.Letra_Derecha{
+    width: 55%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
+    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
+    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
+    top: -1537px; /* Mueve el elemento hacia abajo */
+    left: 660px; /* Mueve el elemento hacia la derecha */
+    clip-path: inset(0 20% 0 20%);
+}
+.Letra_Izquierda{
+    width: 55%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
+    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
+    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
+    top: -2007px; /* Mueve el elemento hacia abajo */
+    left: 25px; /* Mueve el elemento hacia la derecha */
+    clip-path: inset(0 20% 0 20%);
+}
+
+.Letra_Frontal_G{
+    width: 55%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
+    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
+    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
+    top: -1213px; /* Mueve el elemento hacia abajo */
+    left: 145px; /* Mueve el elemento hacia la derecha */
+    clip-path: inset(0 34% 0 5%);
+}
+.Letra_Trasera_G{
+    width: 55%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
+    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
+    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
+    top: -1679px; /* Mueve el elemento hacia abajo */
+    left: 523px; /* Mueve el elemento hacia la derecha */
+    clip-path: inset(0 3% 0 36%);
+}
+
+.Letra_Frontal_J{
+    width: 55%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
+    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
+    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
+    top: -1213px; /* Mueve el elemento hacia abajo */
+    left: 150px; /* Mueve el elemento hacia la derecha */
+    clip-path: inset(0 37% 0 6%);
+}
+.Letra_Trasera_J{
+    width: 55%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
+    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
+    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
+    top: -1679px; /* Mueve el elemento hacia abajo */
+    left: 530px; /* Mueve el elemento hacia la derecha */
+    clip-path: inset(0 6% 0 37%);
+}
+.Letra_Derecha_J{
+    width: 55%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
+    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
+    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
+    top: -1537px; /* Mueve el elemento hacia abajo */
+    left: 660px; /* Mueve el elemento hacia la derecha */
+    clip-path: inset(0 20% 0 20%);
+}
+.Letra_Izquierda_J{
+    width: 55%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
+    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
+    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
+    top: -2007px; /* Mueve el elemento hacia abajo */
+    left: 25px; /* Mueve el elemento hacia la derecha */
+    clip-path: inset(0 20% 0 20%);
+}

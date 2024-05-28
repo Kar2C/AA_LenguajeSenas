@@ -1,0 +1,196 @@
+/* Estilos para la página Cuatro */
+
+/* Estilos para el encabezado */
+.header {
+    background-color: #d1e8bf;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid d1e8bf;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 36px;
+    color: black;
+    margin: 0;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.search-button {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    margin-left: 5px;
+}
+
+/* Contenido principal */
+.main-content {
+    padding: 20px;
+    text-align: center;
+    position: relative; /* Permite posicionar los elementos hijos de forma absoluta */
+}
+
+/* Rectángulo para el video */
+.video-rectangle {
+    width: 1379px; /* Ajusta el ancho del rectángulo de video según sea necesario */
+    height: 675px; /* Ajusta la altura del rectángulo de video según sea necesario */
+    background-color: #d1e8bf; /* Color de fondo del rectángulo de video */
+    margin: 135px auto ; /* Centra horizontalmente y agrega margen inferior */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos específicos para el video */
+.video-rectangle video {
+    width: 95%;
+    height: 97%;
+    object-fit: cover; /* Ajusta cómo se redimensiona el video */
+}
+
+/* Título de la letra */
+.letter-title {
+    position: absolute; /* Permite posicionar el título de forma absoluta */
+    top: 43px; /* Ajusta la posición vertical del título */
+    left: 88px; /* Ajusta la posición horizontal del título */
+    font-size: 52px; /* Tamaño de fuente del título */
+    color: black; /* Color del título */
+}
+
+/* Estilos para los cuadrados adicionales */
+.additional-squares {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 120px; /* Ajusta el margen lateral izquierdo entre los cuadrados */
+    margin-right: 120px; /* Ajusta el margen lateral derecho entre los cuadrados */
+}
+
+.additional-squares .square {
+    width: 520px; /* Ajusta el ancho del cuadrado según sea necesario */
+    height: 450px; /* Ajusta la altura del cuadrado según sea necesario */
+    background-color: #d1e8bf; /* Color de fondo del cuadrado */
+    border: 2px solid #000; /* Borde del cuadrado */
+    position: relative; /* Permite posicionar el texto */
+}
+
+/* Estilos para los textos debajo de los cuadrados */
+.additional-squares .square::after {
+    position: absolute; /* Posiciona el texto de forma absoluta */
+    bottom: -25px; /* Ajusta la posición vertical del texto */
+    left: 50%; /* Centra horizontalmente el texto */
+    transform: translateX(-50%); /* Centra horizontalmente el texto */
+    font-size: 41px; /* Tamaño de fuente del texto */
+    color: black; /* Color del texto */
+}
+
+.additional-squares .frontal::after {
+    content: "Frontal"; /* Texto para el cuadrado frontal */
+    position: absolute; /* Posiciona el texto de forma absoluta */
+    bottom: -42px; /* Ajusta la posición vertical del texto */
+    left: 50%; /* Centra horizontalmente el texto */
+    transform: translateX(-50%); /* Centra horizontalmente el texto */
+    font-size: 41px; /* Tamaño de fuente del texto */
+    color: black; /* Color del texto */
+}
+
+.additional-squares .trasera::after {
+    content: "Trasera"; /* Texto para el cuadrado trasero */
+    position: absolute; /* Posiciona el texto de forma absoluta */
+    bottom: -42px; /* Ajusta la posición vertical del texto */
+    left: 50%; /* Centra horizontalmente el texto */
+    transform: translateX(-50%); /* Centra horizontalmente el texto */
+    font-size: 41px; /* Tamaño de fuente del texto */
+    color: black; /* Color del texto */
+}
+
+.additional-squares .derecha::after {
+    content: "Lateral Derecho"; /* Texto para el cuadrado lateral derecho */
+    position: absolute; /* Posiciona el texto de forma absoluta */
+    bottom: -42px; /* Ajusta la posición vertical del texto */
+    left: 50%; /* Centra horizontalmente el texto */
+    transform: translateX(-50%); /* Centra horizontalmente el texto */
+    font-size: 37px; /* Tamaño de fuente del texto */
+    color: black; /* Color del texto */
+}
+
+.additional-squares .izquierda::after {
+    content: "Lateral Izquierdo"; /* Texto para el cuadrado lateral izquierdo */
+    position: absolute; /* Posiciona el texto de forma absoluta */
+    bottom: -42px; /* Ajusta la posición vertical del texto */
+    left: 50%; /* Centra horizontalmente el texto */
+    transform: translateX(-50%); /* Centra horizontalmente el texto */
+    font-size: 37px; /* Tamaño de fuente del texto */
+    color: black; /* Color del texto */
+}
+
+/* Estilos para los botones de navegación */
+.button-container {
+    position: absolute;
+    top: 110px;
+    right: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.nav-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #d1e8bf;
+    border: 2px solid #5e6938;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    background-color: d1e8bf;
+}
+
+/* Estilos para el pie de página */
+.footer {
+    background-color: #d1e8bf;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 18px;
+    color: black;
+    margin: 0;
+}
+
+/* Estilos para el texto debajo del cuadrado de video */
+.video-text {
+    position: absolute;
+    bottom: 1390px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+
+.vistas {
+    position: absolute;
+    bottom: 1180px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+

@@ -1,0 +1,47 @@
+/* Estilos para la página Tres */
+
+/* Contenedor de los cuadrados */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1500px; /* Ajusta el ancho total según sea necesario */
+    margin: 50px auto; /* Centra el contenedor en la página */
+}
+
+/* Cuadrado */
+.square {
+    position: relative; /* Permite posicionar la línea dentro del cuadrado */
+    width: 416px; /* Ancho del cuadrado */
+    height: 75px; /* Altura del cuadrado */
+    background-color: d1e8bf; /* Color de fondo */
+    border: 2px solid #5e6938; /* Borde de 2px de ancho y negro */
+    border-radius: 10px; /* Borde ligeramente ovalado */
+    margin-bottom: 7px; /* Espacio entre los cuadrados */
+}
+
+.square-word {
+    position: absolute; /* Permite posicionar la palabra dentro del cuadrado */
+    top: 50%; /* Posiciona la palabra en el centro vertical del cuadrado */
+    left: 50%; /* Centra horizontalmente la palabra */
+    transform: translate(-50%, -50%); /* Ajusta la posición horizontal y vertical de la palabra */
+    font-size: 45px; /* Tamaño de la palabra */
+    color: black; /* Color de la palabra */
+}
+
+/* Estilos para el botón de inicio */
+.start-button {
+    position: absolute;
+    top: 110px;
+    right: 50px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #d1e8bf;
+    border: 2px solid #5e6938;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.start-button:hover {
+    background-color: #a5b95d;
+}

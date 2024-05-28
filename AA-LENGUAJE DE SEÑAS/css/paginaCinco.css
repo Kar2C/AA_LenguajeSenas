@@ -1,0 +1,129 @@
+/* Estilos para la página Cuatro */
+
+/* Estilos para el encabezado */
+.header {
+    background-color: #d1e8bf;
+    text-align: center;
+    border-bottom: 2px solid #d1e8bf;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 45px;
+    color: black;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.search-button {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    margin-left: 5px;
+}
+
+/* Contenido principal */
+.main-content {
+    padding: 20px;
+    text-align: center;
+    position: relative; /* Permite posicionar los elementos hijos de forma absoluta */
+}
+
+/* Rectángulo para el video */
+.video-rectangle {
+    width: 1379px; /* Ajusta el ancho del rectángulo de video según sea necesario */
+    height: 675px; /* Ajusta la altura del rectángulo de video según sea necesario */
+    background-color: #d1e8bf; /* Color de fondo del rectángulo de video */
+    margin: 135px auto ; /* Centra horizontalmente y agrega margen inferior */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos específicos para el video */
+.video-rectangle video {
+    width: 95%;
+    height: 97%;
+    object-fit: cover; /* Ajusta cómo se redimensiona el video */
+}
+
+/* Título de la letra */
+.letter-title {
+    position: absolute; /* Permite posicionar el título de forma absoluta */
+    top: 43px; /* Ajusta la posición vertical del título */
+    left: 88px; /* Ajusta la posición horizontal del título */
+    font-size: 52px; /* Tamaño de fuente del título */
+    color: black; /* Color del título */
+}
+
+
+/* Estilos para los botones de navegación */
+.button-container {
+    position: absolute;
+    top: 110px;
+    right: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.nav-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #d1e8bf;
+    border: 2px solid #5e6938;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    background-color: #a5b95d;
+}
+
+/* Estilos para el pie de página */
+.footer {
+    background-color: #d1e8bf;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 18px;
+    color: black;
+    margin: 0;
+}
+
+/* Estilos para el texto debajo del cuadrado de video */
+.word-title{
+    position: absolute;
+    top: 6%;
+    left: 10%;
+    transform: translateX(-50%);
+    font-size: 48px;
+    color: rgb(0, 0, 0);
+}
+
+.video-message{
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 35px;
+    color: #ffffff;
+}
+
+

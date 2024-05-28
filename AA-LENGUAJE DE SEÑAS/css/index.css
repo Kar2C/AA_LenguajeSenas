@@ -1,0 +1,127 @@
+/* En tu archivo CSS */
+
+body {
+    margin: 0;
+    font-family: Merriweather, serif;
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* Define tres filas: una para el header, una para el contenido, y una para el footer */
+    min-height: 100vh; /* Asegura que el cuerpo ocupe al menos el 100% de la altura de la ventana */
+}
+
+.header {
+    background-color: #d1e8bf;
+    color: #000000;
+    padding: 20px;
+    grid-row: 1; /* Coloca el header en la primera fila */
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    margin: 0;
+    font-size: 45px;
+    font-family: Merriweather, serif;
+
+}
+
+.search-bar {
+    display: flex;
+    align-items:center;
+}
+
+.search-input {
+    border: 1px solid #000000;
+    border-radius: 20px;
+    padding: 10px 40px;
+}
+
+.search-input::placeholder {
+    text-align: left; /* Alinea el texto del placeholder a la izquierda */
+}
+
+.search-button {
+    background: none;
+    border: none;
+    margin-left: 5px;
+    font-size: 1.2em; /* Tamaño del emoji */
+}
+
+.footer {
+    background-color: #d1e8bf;
+    color: #000000;
+    text-align: center;
+    grid-row: 3; /* Coloca el footer en la tercera fila */
+    font-size: 18px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea */
+    margin-top: 100px; /* Espacio entre el header y los cuadrados */
+}
+
+.square {
+    position: relative; /* Establece la posición relativa para que los títulos y botones se puedan posicionar correctamente */
+    width: 527px; /* Ajustamos el ancho */
+    height: 326px; /* Ajustamos la altura */
+    background-color: #d1e8bf; /* Relleno verde */
+    border: 2px solid #5e6938; /* Borde negro */
+    border-radius: 20px; /* Borde redondeado */
+    margin: 40px; /* Espacio entre los cuadrados */
+    text-align: center; /* Centra el texto horizontalmente */
+    padding-top: 70px; /* Ajusta el espacio para el texto de descripción */
+}
+
+.square-title {
+    position: absolute; /* Establece la posición absoluta para que los títulos se coloquen dentro de los cuadrados */
+    top: -70px; /* Ajustamos la distancia desde la parte superior del cuadrado */
+    left: 50%; /* Centra horizontalmente el título en el cuadrado */
+    transform: translateX(-50%); /* Ajusta el título al centro del cuadrado */
+    font-size: 50px; /* Ajustamos el tamaño de la fuente del título */
+}
+
+.square-description {
+    font-size: 39px; /* Tamaño del texto */
+    position: absolute; /* Establece la posición absoluta para que los textos se coloquen dentro de los cuadrados */
+    bottom: 135px; /* Ajustamos la distancia desde la parte inferior del cuadrado */
+    left: 50%; /* Centra horizontalmente el texto en el cuadrado */
+    transform: translateX(-50%); /* Ajusta el texto al centro del cuadrado */
+    width: 90%; /* Ajusta el ancho del texto */
+}
+
+.button {
+    position: absolute; /* Establece la posición absoluta para que los botones se coloquen dentro del cuadrado */
+    bottom: 20px; /* Ajustamos la distancia desde la parte inferior del cuadrado */
+    left: 50%; /* Centra horizontalmente el botón en el cuadrado */
+    transform: translateX(-50%); /* Ajusta el botón al centro del cuadrado */
+    background-color: #ffffff; /* Fondo blanco */
+    border: 2px solid #5e6938; /* Borde negro */
+    border-radius: 35px; /* Borde redondeado */
+    padding: 10px 20px; /* Espacio alrededor del texto */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 25px;
+}
+
+.button:hover {
+    background-color: #5e6938; /* Fondo blanco */
+    border: 2px solid #ffffff; /* Borde negro */
+    color: white;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
