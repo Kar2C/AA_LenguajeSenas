@@ -67,6 +67,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const img = document.createElement("img");
         img.src = images[i]; // Asigna la ruta de la imagen correspondiente
         img.classList.add(`square-image-${alphabet[i]}`); // Clase única para cada imagen
+        img.alt = `Letra ${alphabet[i]} `; // Agrega el atributo alt con una descripción
         square.appendChild(img);
 
         // Agrega el event listener para redirigir a la página cuatro con la letra correspondiente

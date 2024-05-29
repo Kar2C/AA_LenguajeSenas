@@ -20,10 +20,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 // Utiliza un switch para asignar la ruta del video según la palabra seleccionada
                 switch (palabraSeleccionada) {
                     case 'Gracias':
-                        videoSource.src = 'Mdelos/G/G.mp4';
+                        videoSource.src = 'Modelos/Gracias.mp4';
                         break;
                     case 'Mamá':
-                        videoSource.src = 'Modelos/M/M.mp4';
+                        videoSource.src = 'Modelos/Mama.mp4';
                         break;
                     case 'Papá':
                         videoSource.src = 'Modelos/P/P.mp4';
