@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         videoSource.src = 'Modelos/Mama.mp4';
                         break;
                     case 'Papá':
-                        videoSource.src = 'Modelos/P/P.mp4';
+                        videoSource.src = 'Modelos/Papa.mp4';
                         break;
                     case 'Hola':
                         videoSource.src = 'Mdelos/G/G.mp4';

@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const container = document.getElementById("cuadradosContainer");
 
     // Define las palabras para los cuadrados
-    const palabras = ["Gracias", "Mamá", "Papá", "Perdón"];
+    const palabras = ["Gracias", "Mamá", "Papá"];
 
     // Genera 9 cuadrados con las palabras y los agrega al contenedor
     for (let i = 0; i < palabras.length; i++) {
