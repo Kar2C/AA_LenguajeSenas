@@ -1,23 +1,18 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // Función para redirigir a la página de inicio (index.html)
     function redirectToHomePage() {
         window.location.href = 'index.html';
     }
 
-    // Función para redirigir a la página cuatro y pasar la letra como parámetro
     function goToPaginaCuatro(letter) {
         window.location.href = `paginaCuatro.html?letra=${letter}`;
     }
 
-    // Agregar event listener al botón de inicio
     const inicioButton = document.querySelector(".start-button");
     inicioButton.addEventListener("click", redirectToHomePage);
 
-    // Genera 27 cuadrados y los agrega al contenedor
     const container = document.getElementById("cuadradosContainer");
-    const alphabet = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ"; // Define el abecedario
+    const alphabet = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ";
 
-    // Arreglo de rutas de imágenes
     const images = [
         "Modelos/A/FRONTAL.png",
         "Modelos/B/FRONTAL.png",
@@ -52,33 +47,26 @@ document.addEventListener("DOMContentLoaded", function() {
         const square = document.createElement("div");
         square.classList.add("square");
 
-        // Agrega la línea horizontal dentro del cuadrado
         const line = document.createElement("div");
         line.classList.add("square-line");
         square.appendChild(line);
 
-        // Agrega la letra del abecedario dentro del cuadrado
         const letter = document.createElement("div");
         letter.classList.add("square-letter");
-        letter.textContent = alphabet[i]; // Asigna la letra correspondiente
+        letter.textContent = alphabet[i];
         square.appendChild(letter);
 
-        // Agrega la imagen correspondiente a cada letra
         const img = document.createElement("img");
         img.src = images[i]; // Asigna la ruta de la imagen correspondiente
-        img.classList.add(`square-image-${alphabet[i]}`); // Clase única para cada imagen
-        img.alt = `Letra ${alphabet[i]} `; // Agrega el atributo alt con una descripción
+        img.classList.add(`square-image-${alphabet[i]}`); 
+        img.alt = `Letra ${alphabet[i]} en lenguaje de señas `; // Agrega el atributo alt con una descripción
         square.appendChild(img);
 
-        // Agrega el event listener para redirigir a la página cuatro con la letra correspondiente
         square.addEventListener("click", function() {
-            // Obtén la letra seleccionada
             const letter = this.querySelector(".square-letter").textContent;
-            // Redirige a la página cuatro y pasa la letra como parámetro
             goToPaginaCuatro(letter);
         });
 
-        // Agrega el cuadrado al contenedor
         container.appendChild(square);
     }
 });

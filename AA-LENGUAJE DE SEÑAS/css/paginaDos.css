@@ -1,46 +1,40 @@
-/* Estilos para la página Dos */
-
-/* Contenedor de los cuadrados */
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 1500px; /* Ajusta el ancho total según sea necesario */
-    margin: 50px auto; /* Centra el contenedor en la página */
+    width: 1500px; 
+    margin: 50px auto; 
+    cursor: pointer;
 }
 
-/* Cuadrado */
 .square {
-    position: relative; /* Permite posicionar la línea dentro del cuadrado */
-    width: 416px; /* Ancho del cuadrado */
-    height: 314px; /* Altura del cuadrado */
-    background-color: #d1e8bf; /* Color de fondo */
-    border: 2px solid #5e6938; /* Borde de 2px de ancho y negro */
-    border-radius: 10px; /* Borde ligeramente ovalado */
-    margin-bottom: 7px; /* Espacio entre los cuadrados */
+    position: relative;
+    width: 416px; 
+    height: 314px; 
+    background-color: #d1e8bf; 
+    border: 2px solid #5e6938; 
+    border-radius: 10px; 
+    margin-bottom: 7px; 
 }
 
-/* Línea horizontal */
 .square-line {
-    position: absolute; /* Permite posicionar la línea dentro del cuadrado */
-    top: 20%; /* Posiciona la línea en la mitad vertical del cuadrado */
-    left: 50px; /* Ajusta el desplazamiento de la línea horizontal */
-    width: calc(100% - 100px); /* Calcula el ancho de la línea horizontal */
-    height: 1px; /* Grosor de la línea */
-    background-color: black; /* Color de la línea */
+    position: absolute;
+    top: 20%; 
+    left: 50px;
+    width: calc(100% - 100px);
+    height: 1px; 
+    background-color: black;
 }
 
-/* Letra del abecedario */
 .square-letter {
-    position: absolute; /* Permite posicionar la letra dentro del cuadrado */
-    top: 5%; /* Posiciona la letra arriba de la línea horizontal */
-    left: 50%; /* Centra horizontalmente la letra */
-    transform: translateX(-50%); /* Ajusta la posición horizontal de la letra */
-    font-size: 43px; /* Tamaño de la letra */
-    color: black; /* Color de la letra */
+    position: absolute; 
+    top: 5%; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    font-size: 43px; 
+    color: black; 
 }
 
-/* Estilos para el botón de inicio */
 .start-button {
     position: absolute;
     top: 110px;
@@ -65,257 +59,256 @@
     font-size: 20px;
     color: black;
     text-align: center;
-    opacity: 0.7; /* Ajusta la opacidad si es necesario */
+    opacity: 0.7;
 }
 
 .square-image-A {
-    width: 115%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
-    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
-    border-radius: 10px; /* Borde ligeramente ovalado */
-    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
-    top: 27px; /* Mueve el elemento hacia abajo */
-    left: -31px; /* Mueve el elemento hacia la derecha */
+    width: 115%; 
+    height: auto; 
+    border-radius: 10px;
+    position: relative; 
+    top: 27px; 
+    left: -31px;
     clip-path: inset(0 20% 0 20%);
 }
 
 .square-image-B {
-    width: 115%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
-    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
-    border-radius: 10px; /* Borde ligeramente ovalado */
-    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
-    top: 27px; /* Mueve el elemento hacia abajo */
-    left: -31px; /* Mueve el elemento hacia la derecha */
+    width: 115%; 
+    height: auto; 
+    border-radius: 10px;
+    position: relative; 
+    top: 27px; 
+    left: -31px;
     clip-path: inset(0 20% 0 20%);
 }
 
 .square-image-C {
-    width: 115%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
-    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
-    border-radius: 10px; /* Borde ligeramente ovalado */
-    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
-    top: 27px; /* Mueve el elemento hacia abajo */
-    left: -31px; /* Mueve el elemento hacia la derecha */
+    width: 115%; 
+    height: auto; 
+    border-radius: 10px;
+    position: relative; 
+    top: 27px; 
+    left: -31px;
     clip-path: inset(0 20% 0 20%);
 }
 
 .square-image-D {
-    width: 115%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
-    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
-    border-radius: 10px; /* Borde ligeramente ovalado */
-    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
-    top: 27px; /* Mueve el elemento hacia abajo */
-    left: -31px; /* Mueve el elemento hacia la derecha */
+    width: 115%; 
+    height: auto; 
+    border-radius: 10px;
+    position: relative; 
+    top: 27px; 
+    left: -31px;
     clip-path: inset(0 20% 0 20%);
 }
 .square-image-E {
-    width: 115%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
-    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
-    border-radius: 10px; /* Borde ligeramente ovalado */
-    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
-    top: 27px; /* Mueve el elemento hacia abajo */
-    left: -31px; /* Mueve el elemento hacia la derecha */
+    width: 115%; 
+    height: auto; 
+    border-radius: 10px;
+    position: relative; 
+    top: 27px; 
+    left: -31px;
     clip-path: inset(0 20% 0 20%);
 }
 
 .square-image-F {
-    width: 115%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
-    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
-    border-radius: 10px; /* Borde ligeramente ovalado */
-    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
-    top: 27px; /* Mueve el elemento hacia abajo */
-    left: -31px; /* Mueve el elemento hacia la derecha */
+    width: 115%; 
+    height: auto; 
+    border-radius: 10px;
+    position: relative; 
+    top: 27px; 
+    left: -31px;
     clip-path: inset(0 20% 0 20%);
 }
 .square-image-G {
-    width: 115%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
-    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
-    border-radius: 10px; /* Borde ligeramente ovalado */
-    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
-    top: 27px; /* Mueve el elemento hacia abajo */
-    left: 40px; /* Mueve el elemento hacia la derecha */
+    width: 115%; 
+    height: auto; 
+    border-radius: 10px;
+    position: relative; 
+    top: 27px; 
+    left: 40px;
     clip-path: inset(0 34% 0 5%);
 }
 
 .square-image-H {
-    width: 115%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
-    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
-    border-radius: 10px; /* Borde ligeramente ovalado */
-    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
-    top: 27px; /* Mueve el elemento hacia abajo */
-    left: 50px; /* Mueve el elemento hacia la derecha */
+    width: 115%; 
+    height: auto; 
+    border-radius: 10px;
+    position: relative; 
+    top: 27px; 
+    left: 50px;
     clip-path: inset(0 36% 0 3%);
 }
 .square-image-I {
-    width: 115%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
-    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
-    border-radius: 10px; /* Borde ligeramente ovalado */
-    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
-    top: 27px; /* Mueve el elemento hacia abajo */
-    left: -31px; /* Mueve el elemento hacia la derecha */
+    width: 115%; 
+    height: auto; 
+    border-radius: 10px;
+    position: relative; 
+    top: 27px; 
+    left: -31px;
     clip-path: inset(0 20% 0 20%);
 }
 
 .square-image-J {
-    width: 115%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
-    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
-    border-radius: 10px; /* Borde ligeramente ovalado */
-    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
-    top: 27px; /* Mueve el elemento hacia abajo */
-    left: 17px; /* Mueve el elemento hacia la derecha */
+    width: 115%; 
+    height: auto; 
+    border-radius: 10px;
+    position: relative; 
+    top: 27px; 
+    left: 17px;
     clip-path: inset(0 30% 0 10%);
 }
 
 .square-image-K {
-    width: 115%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
-    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
-    border-radius: 10px; /* Borde ligeramente ovalado */
-    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
-    top: 27px; /* Mueve el elemento hacia abajo */
-    left: -31px; /* Mueve el elemento hacia la derecha */
+    width: 115%; 
+    height: auto; 
+    border-radius: 10px;
+    position: relative; 
+    top: 27px; 
+    left: -31px;
     clip-path: inset(0 20% 0 20%);
 }
 .square-image-L {
-    width: 115%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
-    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
-    border-radius: 10px; /* Borde ligeramente ovalado */
-    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
-    top: 27px; /* Mueve el elemento hacia abajo */
-    left: -31px; /* Mueve el elemento hacia la derecha */
+    width: 115%; 
+    height: auto; 
+    border-radius: 10px;
+    position: relative; 
+    top: 27px; 
+    left: -31px;
     clip-path: inset(0 20% 0 20%);
 }
 .square-image-M {
-    width: 115%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
-    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
-    border-radius: 10px; /* Borde ligeramente ovalado */
-    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
-    top: 27px; /* Mueve el elemento hacia abajo */
-    left: -31px; /* Mueve el elemento hacia la derecha */
+    width: 115%; 
+    height: auto; 
+    border-radius: 10px;
+    position: relative; 
+    top: 27px; 
+    left: -31px;
     clip-path: inset(0 20% 0 20%);
 }
 .square-image-N {
-    width: 115%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
-    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
-    border-radius: 10px; /* Borde ligeramente ovalado */
-    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
-    top: 27px; /* Mueve el elemento hacia abajo */
-    left: -31px; /* Mueve el elemento hacia la derecha */
+    width: 115%; 
+    height: auto; 
+    border-radius: 10px;
+    position: relative; 
+    top: 27px; 
+    left: -31px;
     clip-path: inset(0 20% 0 20%);
 }
 .square-image-O {
-    width: 115%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
-    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
-    border-radius: 10px; /* Borde ligeramente ovalado */
-    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
-    top: 27px; /* Mueve el elemento hacia abajo */
-    left: -31px; /* Mueve el elemento hacia la derecha */
+    width: 115%; 
+    height: auto; 
+    border-radius: 10px;
+    position: relative; 
+    top: 27px; 
+    left: -31px;
     clip-path: inset(0 20% 0 20%);
 }
 .square-image-P {
-    width: 115%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
-    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
-    border-radius: 10px; /* Borde ligeramente ovalado */
-    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
-    top: 27px; /* Mueve el elemento hacia abajo */
-    left: 17px; /* Mueve el elemento hacia la derecha */
+    width: 115%; 
+    height: auto; 
+    border-radius: 10px;
+    position: relative; 
+    top: 27px; 
+    left: 17px;
     clip-path: inset(0 30% 0 10%);
 }
 .square-image-Q {
-    width: 115%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
-    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
-    border-radius: 10px; /* Borde ligeramente ovalado */
-    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
-    top: 27px; /* Mueve el elemento hacia abajo */
-    left: 15px; /* Mueve el elemento hacia la derecha */
+    width: 115%; 
+    height: auto; 
+    border-radius: 10px;
+    position: relative; 
+    top: 27px; 
+    left: 15px;
     clip-path: inset(0 30% 0 15%);
 }
 .square-image-R {
-    width: 115%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
-    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
-    border-radius: 10px; /* Borde ligeramente ovalado */
-    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
-    top: 27px; /* Mueve el elemento hacia abajo */
-    left: -31px; /* Mueve el elemento hacia la derecha */
+    width: 115%; 
+    height: auto; 
+    border-radius: 10px;
+    position: relative; 
+    top: 27px; 
+    left: -31px;
     clip-path: inset(0 20% 0 20%);
 }
 .square-image-S {
-    width: 115%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
-    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
-    border-radius: 10px; /* Borde ligeramente ovalado */
-    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
-    top: 27px; /* Mueve el elemento hacia abajo */
-    left: -31px; /* Mueve el elemento hacia la derecha */
+    width: 115%; 
+    height: auto; 
+    border-radius: 10px;
+    position: relative; 
+    top: 27px; 
+    left: -31px;
     clip-path: inset(0 20% 0 20%);
 }
 .square-image-T {
-    width: 115%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
-    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
-    border-radius: 10px; /* Borde ligeramente ovalado */
-    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
-    top: 27px; /* Mueve el elemento hacia abajo */
-    left: -31px; /* Mueve el elemento hacia la derecha */
+    width: 115%; 
+    height: auto; 
+    border-radius: 10px;
+    position: relative; 
+    top: 27px; 
+    left: -31px;
     clip-path: inset(0 20% 0 20%);
 }
 .square-image-U {
-    width: 115%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
-    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
-    border-radius: 10px; /* Borde ligeramente ovalado */
-    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
-    top: 27px; /* Mueve el elemento hacia abajo */
-    left: -31px; /* Mueve el elemento hacia la derecha */
+    width: 115%; 
+    height: auto; 
+    border-radius: 10px;
+    position: relative; 
+    top: 27px; 
+    left: -31px;
     clip-path: inset(0 20% 0 20%);
 }
 .square-image-V {
-    width: 115%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
-    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
-    border-radius: 10px; /* Borde ligeramente ovalado */
-    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
-    top: 27px; /* Mueve el elemento hacia abajo */
-    left: -31px; /* Mueve el elemento hacia la derecha */
+    width: 115%; 
+    height: auto; 
+    border-radius: 10px;
+    position: relative; 
+    top: 27px; 
+    left: -31px;
     clip-path: inset(0 20% 0 20%);
 }
 .square-image-W {
-    width: 115%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
-    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
-    border-radius: 10px; /* Borde ligeramente ovalado */
-    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
-    top: 27px; /* Mueve el elemento hacia abajo */
-    left: -31px; /* Mueve el elemento hacia la derecha */
+    width: 115%; 
+    height: auto; 
+    border-radius: 10px;
+    position: relative; 
+    top: 27px; 
+    left: -31px;
     clip-path: inset(0 20% 0 20%);
 }
 .square-image-X {
-    width: 115%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
-    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
-    border-radius: 10px; /* Borde ligeramente ovalado */
-    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
-    top: 27px; /* Mueve el elemento hacia abajo */
-    left: -31px; /* Mueve el elemento hacia la derecha */
+    width: 115%; 
+    height: auto; 
+    border-radius: 10px;
+    position: relative; 
+    top: 27px; 
+    left: -31px;
     clip-path: inset(0 20% 0 20%);
 }
 .square-image-Y {
-    width: 115%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
-    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
-    border-radius: 10px; /* Borde ligeramente ovalado */
-    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
-    top: 27px; /* Mueve el elemento hacia abajo */
-    left: -31px; /* Mueve el elemento hacia la derecha */
+    width: 115%; 
+    height: auto; 
+    border-radius: 10px;
+    position: relative; 
+    top: 27px; 
+    left: -31px;
     clip-path: inset(0 20% 0 20%);
 }
 .square-image-Z {
-    width: 115%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
-    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
-    border-radius: 10px; /* Borde ligeramente ovalado */
-    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
-    top: 27px; /* Mueve el elemento hacia abajo */
-    left: -31px; /* Mueve el elemento hacia la derecha */
+    width: 115%; 
+    height: auto; 
+    border-radius: 10px;
+    position: relative; 
+    top: 27px; 
+    left: -31px;
     clip-path: inset(0 20% 0 20%);
 }
 .square-image-Ñ {
-    width: 115%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
-    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
-    border-radius: 10px; /* Borde ligeramente ovalado */
-    position: relative; /* Establece el posicionamiento relativo para el cuadrado */
-    top: 27px; /* Mueve el elemento hacia abajo */
-    left: -31px; /* Mueve el elemento hacia la derecha */
+    width: 115%; 
+    height: auto; 
+    border-radius: 10px;
+    position: relative; 
+    top: 27px; 
+    left: -31px;
     clip-path: inset(0 20% 0 20%);
 }
-

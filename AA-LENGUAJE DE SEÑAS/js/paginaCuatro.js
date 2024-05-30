@@ -41,22 +41,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         const img1 = document.createElement('img');
                         img1.src = 'Modelos/A/FRONTAL.png';
-                        img1.classList.add('Letra_Frontal'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img1.classList.add('Letra_Frontal');
                         document.body.appendChild(img1);
 
                         const img2 = document.createElement('img');
                         img2.src = 'Modelos/A/TRASERA.png';
-                        img2.classList.add('Letra_Trasera'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img2.classList.add('Letra_Trasera');
                         document.body.appendChild(img2);
 
                         const img3 = document.createElement('img');
                         img3.src = 'Modelos/A/LATERAL2.png';
-                        img3.classList.add('Letra_Derecha'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img3.classList.add('Letra_Derecha');
                         document.body.appendChild(img3);
 
                         const img4 = document.createElement('img');
                         img4.src = 'Modelos/A/LATERAL1.png';
-                        img4.classList.add('Letra_Izquierda'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img4.classList.add('Letra_Izquierda');
                         document.body.appendChild(img4);
                         break;
                     case 'B':
@@ -64,22 +64,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         const img11 = document.createElement('img');
                         img11.src = 'Modelos/B/FRONTAL.png';
-                        img11.classList.add('Letra_Frontal'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img11.classList.add('Letra_Frontal');
                         document.body.appendChild(img11);
 
                         const img22 = document.createElement('img');
                         img22.src = 'Modelos/B/TRASERA.png';
-                        img22.classList.add('Letra_Trasera'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img22.classList.add('Letra_Trasera');
                         document.body.appendChild(img22);
 
                         const img33 = document.createElement('img');
                         img33.src = 'Modelos/B/LATERAL1.png';
-                        img33.classList.add('Letra_Derecha'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
-                        document.body.appendChild(img33);
+                        img33.classList.add('Letra_Derecha');
 
                         const img44 = document.createElement('img');
                         img44.src = 'Modelos/B/LATERAL2.png';
-                        img44.classList.add('Letra_Izquierda'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img44.classList.add('Letra_Izquierda');
                         document.body.appendChild(img44);
                         break;
                     case 'C':
@@ -87,22 +86,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         const img111 = document.createElement('img');
                         img111.src = 'Modelos/C/FRONTAL.png';
-                        img111.classList.add('Letra_Frontal'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img111.classList.add('Letra_Frontal');
                         document.body.appendChild(img111);
 
                         const img222 = document.createElement('img');
                         img222.src = 'Modelos/C/TRASERA.png';
-                        img222.classList.add('Letra_Trasera'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img222.classList.add('Letra_Trasera');
                         document.body.appendChild(img222);
 
                         const img333 = document.createElement('img');
                         img333.src = 'Modelos/C/LATERAL1.png';
-                        img333.classList.add('Letra_Derecha'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img333.classList.add('Letra_Derecha');
                         document.body.appendChild(img333);
 
                         const img444 = document.createElement('img');
                         img444.src = 'Modelos/C/LATERAL2.png';
-                        img444.classList.add('Letra_Izquierda'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img444.classList.add('Letra_Izquierda');
                         document.body.appendChild(img444);
                         break;
                     case 'D':
@@ -110,22 +109,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         const img1111 = document.createElement('img');
                         img1111.src = 'Modelos/D/FRONTAL.png';
-                        img1111.classList.add('Letra_Frontal'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img1111.classList.add('Letra_Frontal');
                         document.body.appendChild(img1111);
 
                         const img2222 = document.createElement('img');
                         img2222.src = 'Modelos/D/TRASERA.png';
-                        img2222.classList.add('Letra_Trasera'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img2222.classList.add('Letra_Trasera');
                         document.body.appendChild(img2222);
 
                         const img3333 = document.createElement('img');
                         img3333.src = 'Modelos/D/LATERAL2.png';
-                        img3333.classList.add('Letra_Derecha'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img3333.classList.add('Letra_Derecha');
                         document.body.appendChild(img3333);
 
                         const img4444 = document.createElement('img');
                         img4444.src = 'Modelos/D/LATERAL1.png';
-                        img4444.classList.add('Letra_Izquierda'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img4444.classList.add('Letra_Izquierda');
                         document.body.appendChild(img4444);
                         break;
                     case 'E':
@@ -133,22 +132,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         const img11111 = document.createElement('img');
                         img11111.src = 'Modelos/E/FRONTAL.png';
-                        img11111.classList.add('Letra_Frontal'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img11111.classList.add('Letra_Frontal');
                         document.body.appendChild(img11111);
 
                         const img22222 = document.createElement('img');
                         img22222.src = 'Modelos/E/TRASERA.png';
-                        img22222.classList.add('Letra_Trasera'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img22222.classList.add('Letra_Trasera');
                         document.body.appendChild(img22222);
 
                         const img33333 = document.createElement('img');
                         img33333.src = 'Modelos/E/LATERAL2.png';
-                        img33333.classList.add('Letra_Derecha'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img33333.classList.add('Letra_Derecha');
                         document.body.appendChild(img33333);
 
                         const img44444 = document.createElement('img');
                         img44444.src = 'Modelos/E/LATERAL1.png';
-                        img44444.classList.add('Letra_Izquierda'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img44444.classList.add('Letra_Izquierda');
                         document.body.appendChild(img44444);
                         break;
                     case 'F':
@@ -156,22 +155,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         const img111111 = document.createElement('img');
                         img111111.src = 'Modelos/F/FRONTAL.png';
-                        img111111.classList.add('Letra_Frontal'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img111111.classList.add('Letra_Frontal');
                         document.body.appendChild(img111111);
 
                         const img222222 = document.createElement('img');
                         img222222.src = 'Modelos/F/TRASERA.png';
-                        img222222.classList.add('Letra_Trasera'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img222222.classList.add('Letra_Trasera');
                         document.body.appendChild(img222222);
 
                         const img333333 = document.createElement('img');
                         img333333.src = 'Modelos/F/LATERAL2.png';
-                        img333333.classList.add('Letra_Derecha'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img333333.classList.add('Letra_Derecha');
                         document.body.appendChild(img333333);
 
                         const img444444 = document.createElement('img');
                         img444444.src = 'Modelos/F/LATERAL1.png';
-                        img444444.classList.add('Letra_Izquierda'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img444444.classList.add('Letra_Izquierda');
                         document.body.appendChild(img444444);
                         break;
                     case 'G':
@@ -179,22 +178,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         const img1111111 = document.createElement('img');
                         img1111111.src = 'Modelos/G/FRONTAL.png';
-                        img1111111.classList.add('Letra_Frontal_G'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img1111111.classList.add('Letra_Frontal_G');
                         document.body.appendChild(img1111111);
 
                         const img2222222 = document.createElement('img');
                         img2222222.src = 'Modelos/G/TRASERA.png';
-                        img2222222.classList.add('Letra_Trasera_G'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img2222222.classList.add('Letra_Trasera_G');
                         document.body.appendChild(img2222222);
 
                         const img3333333 = document.createElement('img');
                         img3333333.src = 'Modelos/G/LATERAL2.png';
-                        img3333333.classList.add('Letra_Derecha'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img3333333.classList.add('Letra_Derecha');
                         document.body.appendChild(img3333333);
 
                         const img4444444 = document.createElement('img');
                         img4444444.src = 'Modelos/G/LATERAL1.png';
-                        img4444444.classList.add('Letra_Izquierda'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img4444444.classList.add('Letra_Izquierda');
                         document.body.appendChild(img4444444);
                         break;
                     case 'H':
@@ -202,22 +201,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         const img11111111 = document.createElement('img');
                         img11111111.src = 'Modelos/H/FRONTAL.png';
-                        img11111111.classList.add('Letra_Frontal_G'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img11111111.classList.add('Letra_Frontal_G');
                         document.body.appendChild(img11111111);
 
                         const img22222222 = document.createElement('img');
                         img22222222.src = 'Modelos/H/TRASERA.png';
-                        img22222222.classList.add('Letra_Trasera_G'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img22222222.classList.add('Letra_Trasera_G');
                         document.body.appendChild(img22222222);
 
                         const img33333333 = document.createElement('img');
                         img33333333.src = 'Modelos/H/LATERAL1.png';
-                        img33333333.classList.add('Letra_Derecha'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img33333333.classList.add('Letra_Derecha');
                         document.body.appendChild(img33333333);
 
                         const img44444444 = document.createElement('img');
                         img44444444.src = 'Modelos/H/LATERAL2.png';
-                        img44444444.classList.add('Letra_Izquierda'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img44444444.classList.add('Letra_Izquierda');
                         document.body.appendChild(img44444444);
                         break;
                     case 'I':
@@ -225,22 +224,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         const img111111111 = document.createElement('img');
                         img111111111.src = 'Modelos/I/FRONTAL.png';
-                        img111111111.classList.add('Letra_Frontal'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img111111111.classList.add('Letra_Frontal');
                         document.body.appendChild(img111111111);
 
                         const img222222222 = document.createElement('img');
                         img222222222.src = 'Modelos/I/TRASERA.png';
-                        img222222222.classList.add('Letra_Trasera'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img222222222.classList.add('Letra_Trasera');
                         document.body.appendChild(img222222222);
 
                         const img333333333 = document.createElement('img');
                         img333333333.src = 'Modelos/I/LATERA2.png';
-                        img333333333.classList.add('Letra_Derecha'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img333333333.classList.add('Letra_Derecha');
                         document.body.appendChild(img333333333);
 
                         const img444444444 = document.createElement('img');
                         img444444444.src = 'Modelos/I/LATERAL1.png';
-                        img444444444.classList.add('Letra_Izquierda'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img444444444.classList.add('Letra_Izquierda');
                         document.body.appendChild(img444444444);
                         break;
                     case 'J':
@@ -248,22 +247,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         const img1111111111 = document.createElement('img');
                         img1111111111.src = 'Modelos/J/FRONTAL.png';
-                        img1111111111.classList.add('Letra_Frontal_J'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img1111111111.classList.add('Letra_Frontal_J');
                         document.body.appendChild(img1111111111);
 
                         const img2222222222 = document.createElement('img');
                         img2222222222.src = 'Modelos/J/TRASERA.png';
-                        img2222222222.classList.add('Letra_Trasera_J'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img2222222222.classList.add('Letra_Trasera_J');
                         document.body.appendChild(img2222222222);
 
                         const img3333333333 = document.createElement('img');
                         img3333333333.src = 'Modelos/J/LATERAL2.png';
-                        img3333333333.classList.add('Letra_Derecha_J'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img3333333333.classList.add('Letra_Derecha_J');
                         document.body.appendChild(img3333333333);
 
                         const img4444444444 = document.createElement('img');
                         img4444444444.src = 'Modelos/J/LATERAL1.png';
-                        img4444444444.classList.add('Letra_Izquierda_J'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img4444444444.classList.add('Letra_Izquierda_J');
                         document.body.appendChild(img4444444444);
                         break;
                     case 'K':
@@ -271,22 +270,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         const img11111111111 = document.createElement('img');
                         img11111111111.src = 'Modelos/K/FRONTAL.png';
-                        img11111111111.classList.add('Letra_Frontal'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img11111111111.classList.add('Letra_Frontal');
                         document.body.appendChild(img11111111111);
 
                         const img22222222222 = document.createElement('img');
                         img22222222222.src = 'Modelos/K/TRASERA.png';
-                        img22222222222.classList.add('Letra_Trasera'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img22222222222.classList.add('Letra_Trasera');
                         document.body.appendChild(img22222222222);
 
                         const img33333333333 = document.createElement('img');
                         img33333333333.src = 'Modelos/K/LATERAL2.png';
-                        img33333333333.classList.add('Letra_Derecha'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img33333333333.classList.add('Letra_Derecha');
                         document.body.appendChild(img33333333333);
 
                         const img44444444444 = document.createElement('img');
                         img44444444444.src = 'Modelos/K/LATERAL1.png';
-                        img44444444444.classList.add('Letra_Izquierda'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img44444444444.classList.add('Letra_Izquierda');
                         document.body.appendChild(img44444444444);
                         break;
                     case 'L':
@@ -294,22 +293,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         const img111111111111 = document.createElement('img');
                         img111111111111.src = 'Modelos/L/FRONTAL.png';
-                        img111111111111.classList.add('Letra_Frontal'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img111111111111.classList.add('Letra_Frontal');
                         document.body.appendChild(img111111111111);
 
                         const img222222222222 = document.createElement('img');
                         img222222222222.src = 'Modelos/L/TRASERA.png';
-                        img222222222222.classList.add('Letra_Trasera'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img222222222222.classList.add('Letra_Trasera');
                         document.body.appendChild(img222222222222);
 
                         const img333333333333 = document.createElement('img');
                         img333333333333.src = 'Modelos/L/LATERAL2.png';
-                        img333333333333.classList.add('Letra_Derecha'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img333333333333.classList.add('Letra_Derecha');
                         document.body.appendChild(img333333333333);
 
                         const img444444444444 = document.createElement('img');
                         img444444444444.src = 'Modelos/L/LATERAL1.png';
-                        img444444444444.classList.add('Letra_Izquierda'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img444444444444.classList.add('Letra_Izquierda');
                         document.body.appendChild(img444444444444);
                         break;
                     case 'M':
@@ -317,22 +316,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         const img1111111111111 = document.createElement('img');
                         img1111111111111.src = 'Modelos/M/FRONTAL.png';
-                        img1111111111111.classList.add('Letra_Frontal'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img1111111111111.classList.add('Letra_Frontal');
                         document.body.appendChild(img1111111111111);
 
                         const img2222222222222 = document.createElement('img');
                         img2222222222222.src = 'Modelos/M/TRASERA.png';
-                        img2222222222222.classList.add('Letra_Trasera'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img2222222222222.classList.add('Letra_Trasera');
                         document.body.appendChild(img2222222222222);
 
                         const img3333333333333 = document.createElement('img');
                         img3333333333333.src = 'Modelos/M/LATERAL1.png';
-                        img3333333333333.classList.add('Letra_Derecha'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img3333333333333.classList.add('Letra_Derecha');
                         document.body.appendChild(img3333333333333);
 
                         const img4444444444444 = document.createElement('img');
                         img4444444444444.src = 'Modelos/M/LATERAL2.png';
-                        img4444444444444.classList.add('Letra_Izquierda'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img4444444444444.classList.add('Letra_Izquierda');
                         document.body.appendChild(img4444444444444);
                         break;
                     case 'N':
@@ -340,22 +339,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         const img11111111111111 = document.createElement('img');
                         img11111111111111.src = 'Modelos/N/FRONTAL.png';
-                        img11111111111111.classList.add('Letra_Frontal'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img11111111111111.classList.add('Letra_Frontal');
                         document.body.appendChild(img11111111111111);
 
                         const img22222222222222 = document.createElement('img');
                         img22222222222222.src = 'Modelos/N/TRASERA.png';
-                        img22222222222222.classList.add('Letra_Trasera'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img22222222222222.classList.add('Letra_Trasera');
                         document.body.appendChild(img22222222222222);
 
                         const img33333333333333 = document.createElement('img');
                         img33333333333333.src = 'Modelos/N/LATERAL1.png';
-                        img33333333333333.classList.add('Letra_Derecha'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img33333333333333.classList.add('Letra_Derecha');
                         document.body.appendChild(img33333333333333);
 
                         const img44444444444444 = document.createElement('img');
                         img44444444444444.src = 'Modelos/N/LATERAL2.png';
-                        img44444444444444.classList.add('Letra_Izquierda'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img44444444444444.classList.add('Letra_Izquierda');
                         document.body.appendChild(img44444444444444);
                         break;
                     case 'Ñ':
@@ -363,22 +362,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         const img111111111111111 = document.createElement('img');
                         img111111111111111.src = 'Modelos/Ñ/FRONTAL.png';
-                        img111111111111111.classList.add('Letra_Frontal'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img111111111111111.classList.add('Letra_Frontal');
                         document.body.appendChild(img111111111111111);
 
                         const img222222222222222 = document.createElement('img');
                         img222222222222222.src = 'Modelos/Ñ/TRASERA.png';
-                        img222222222222222.classList.add('Letra_Trasera'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img222222222222222.classList.add('Letra_Trasera');
                         document.body.appendChild(img222222222222222);
 
                         const img333333333333333 = document.createElement('img');
                         img333333333333333.src = 'Modelos/Ñ/LATERAL1.png';
-                        img333333333333333.classList.add('Letra_Derecha'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img333333333333333.classList.add('Letra_Derecha');
                         document.body.appendChild(img333333333333333);
 
                         const img444444444444444 = document.createElement('img');
                         img444444444444444.src = 'Modelos/Ñ/LATERAL2.png';
-                        img444444444444444.classList.add('Letra_Izquierda'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img444444444444444.classList.add('Letra_Izquierda');
                         document.body.appendChild(img444444444444444);
                         break;
                     case 'O':
@@ -386,22 +385,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         const img1111111111111111 = document.createElement('img');
                         img1111111111111111.src = 'Modelos/O/FRONTAL.png';
-                        img1111111111111111.classList.add('Letra_Frontal'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img1111111111111111.classList.add('Letra_Frontal');
                         document.body.appendChild(img1111111111111111);
 
                         const img2222222222222222 = document.createElement('img');
                         img2222222222222222.src = 'Modelos/O/TRASERA.png';
-                        img2222222222222222.classList.add('Letra_Trasera'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img2222222222222222.classList.add('Letra_Trasera');
                         document.body.appendChild(img2222222222222222);
 
                         const img3333333333333333 = document.createElement('img');
                         img3333333333333333.src = 'Modelos/O/LATERAL1.png';
-                        img3333333333333333.classList.add('Letra_Derecha'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img3333333333333333.classList.add('Letra_Derecha');
                         document.body.appendChild(img3333333333333333);
 
                         const img4444444444444444 = document.createElement('img');
                         img4444444444444444.src = 'Modelos/O/LATERAL2.png';
-                        img4444444444444444.classList.add('Letra_Izquierda'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img4444444444444444.classList.add('Letra_Izquierda');
                         document.body.appendChild(img4444444444444444);
                         break;
                     case 'P':
@@ -409,22 +408,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         const img11111111111111111 = document.createElement('img');
                         img11111111111111111.src = 'Modelos/P/FRONTAL.png';
-                        img11111111111111111.classList.add('Letra_Frontal_G'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img11111111111111111.classList.add('Letra_Frontal_G');
                         document.body.appendChild(img11111111111111111);
 
                         const img22222222222222222 = document.createElement('img');
                         img22222222222222222.src = 'Modelos/P/TRASERA.png';
-                        img22222222222222222.classList.add('Letra_Trasera_G'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img22222222222222222.classList.add('Letra_Trasera_G');
                         document.body.appendChild(img22222222222222222);
 
                         const img33333333333333333 = document.createElement('img');
                         img33333333333333333.src = 'Modelos/P/LATERAL1.png';
-                        img33333333333333333.classList.add('Letra_Derecha'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img33333333333333333.classList.add('Letra_Derecha');
                         document.body.appendChild(img33333333333333333);
 
                         const img44444444444444444 = document.createElement('img');
                         img44444444444444444.src = 'Modelos/P/LATERAL2.png';
-                        img44444444444444444.classList.add('Letra_Izquierda'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img44444444444444444.classList.add('Letra_Izquierda');
                         document.body.appendChild(img44444444444444444);
                         break;
                     case 'Q':
@@ -432,22 +431,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         const img111111111111111111 = document.createElement('img');
                         img111111111111111111.src = 'Modelos/Q/FRONTAL.png';
-                        img111111111111111111.classList.add('Letra_Frontal_G'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img111111111111111111.classList.add('Letra_Frontal_G');
                         document.body.appendChild(img111111111111111111);
 
                         const img222222222222222222 = document.createElement('img');
                         img222222222222222222.src = 'Modelos/Q/TRASERA.png';
-                        img222222222222222222.classList.add('Letra_Trasera_G'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img222222222222222222.classList.add('Letra_Trasera_G');
                         document.body.appendChild(img222222222222222222);
 
                         const img333333333333333333 = document.createElement('img');
                         img333333333333333333.src = 'Modelos/Q/LATERAL2.png';
-                        img333333333333333333.classList.add('Letra_Derecha'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img333333333333333333.classList.add('Letra_Derecha');
                         document.body.appendChild(img333333333333333333);
 
                         const img444444444444444444 = document.createElement('img');
                         img444444444444444444.src = 'Modelos/Q/LATERAL1.png';
-                        img444444444444444444.classList.add('Letra_Izquierda'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img444444444444444444.classList.add('Letra_Izquierda');
                         document.body.appendChild(img444444444444444444);
                         break;
                     case 'R':
@@ -455,22 +454,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         const img1111111111111111111 = document.createElement('img');
                         img1111111111111111111.src = 'Modelos/R/FRONTAL.png';
-                        img1111111111111111111.classList.add('Letra_Frontal'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img1111111111111111111.classList.add('Letra_Frontal');
                         document.body.appendChild(img1111111111111111111);
 
                         const img2222222222222222222 = document.createElement('img');
                         img2222222222222222222.src = 'Modelos/R/TRASERA.png';
-                        img2222222222222222222.classList.add('Letra_Trasera'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img2222222222222222222.classList.add('Letra_Trasera');
                         document.body.appendChild(img2222222222222222222);
 
                         const img3333333333333333333 = document.createElement('img');
                         img3333333333333333333.src = 'Modelos/R/LATERAL1.png';
-                        img3333333333333333333.classList.add('Letra_Derecha'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img3333333333333333333.classList.add('Letra_Derecha');
                         document.body.appendChild(img3333333333333333333);
 
                         const img4444444444444444444 = document.createElement('img');
                         img4444444444444444444.src = 'Modelos/R/LATERAL2.png';
-                        img4444444444444444444.classList.add('Letra_Izquierda'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img4444444444444444444.classList.add('Letra_Izquierda');
                         document.body.appendChild(img4444444444444444444);
                         break;
                     case 'S':
@@ -478,22 +477,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         const img11111111111111111111 = document.createElement('img');
                         img11111111111111111111.src = 'Modelos/S/FRONTAL.png';
-                        img11111111111111111111.classList.add('Letra_Frontal'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img11111111111111111111.classList.add('Letra_Frontal');
                         document.body.appendChild(img111111111111111111111);
 
                         const img222222222222222222222 = document.createElement('img');
                         img222222222222222222222.src = 'Modelos/S/TRASERA.png';
-                        img222222222222222222222.classList.add('Letra_Trasera'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img222222222222222222222.classList.add('Letra_Trasera');
                         document.body.appendChild(img22222222222222222222);
 
                         const img33333333333333333333 = document.createElement('img');
                         img33333333333333333333.src = 'Modelos/S/LATERAL1.png';
-                        img33333333333333333333.classList.add('Letra_Derecha'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img33333333333333333333.classList.add('Letra_Derecha');
                         document.body.appendChild(img33333333333333333333);
 
                         const img44444444444444444444 = document.createElement('img');
                         img44444444444444444444.src = 'Modelos/S/LATERAL2.png';
-                        img44444444444444444444.classList.add('Letra_Izquierda'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img44444444444444444444.classList.add('Letra_Izquierda');
                         document.body.appendChild(img44444444444444444444);
                         break;
                     case 'T':
@@ -501,22 +500,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         const img1111111111111111111111 = document.createElement('img');
                         img1111111111111111111111.src = 'Modelos/T/FRONTAL.png';
-                        img1111111111111111111111.classList.add('Letra_Frontal'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img1111111111111111111111.classList.add('Letra_Frontal');
                         document.body.appendChild(img1111111111111111111111);
 
                         const img2222222222222222222222 = document.createElement('img');
                         img2222222222222222222222.src = 'Modelos/T/TRASERA.png';
-                        img2222222222222222222222.classList.add('Letra_Trasera'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img2222222222222222222222.classList.add('Letra_Trasera');
                         document.body.appendChild(img2222222222222222222222);
 
                         const img3333333333333333333333 = document.createElement('img');
                         img3333333333333333333333.src = 'Modelos/T/LATERAL1.png';
-                        img3333333333333333333333.classList.add('Letra_Derecha'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img3333333333333333333333.classList.add('Letra_Derecha');
                         document.body.appendChild(img3333333333333333333333);
 
                         const img4444444444444444444444 = document.createElement('img');
                         img4444444444444444444444.src = 'Modelos/T/LATERAL2.png';
-                        img4444444444444444444444.classList.add('Letra_Izquierda'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img4444444444444444444444.classList.add('Letra_Izquierda');
                         document.body.appendChild(img4444444444444444444444);
                         break;
                     case 'U':
@@ -524,44 +523,44 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         const img11111111111111111111111 = document.createElement('img');
                         img11111111111111111111111.src = 'Modelos/U/FRONTAL.png';
-                        img11111111111111111111111.classList.add('Letra_Frontal'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img11111111111111111111111.classList.add('Letra_Frontal');
                         document.body.appendChild(img11111111111111111111111);
 
                         const img22222222222222222222222 = document.createElement('img');
                         img22222222222222222222222.src = 'Modelos/U/TRASERA.png';
-                        img22222222222222222222222.classList.add('Letra_Trasera'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img22222222222222222222222.classList.add('Letra_Trasera');
                         document.body.appendChild(img22222222222222222222222);
 
                         const img33333333333333333333333 = document.createElement('img');
                         img33333333333333333333333.src = 'Modelos/U/LATERAL1.png';
-                        img33333333333333333333333.classList.add('Letra_Derecha'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img33333333333333333333333.classList.add('Letra_Derecha');
                         document.body.appendChild(img33333333333333333333333);
 
                         const img444444444444444444444444 = document.createElement('img');
                         img444444444444444444444444.src = 'Modelos/U/LATERAL2.png';
-                        img444444444444444444444444.classList.add('Letra_Izquierda'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img444444444444444444444444.classList.add('Letra_Izquierda');
                         document.body.appendChild(img444444444444444444444444);
                         break;
                     case 'V':
                         videoSource.src = 'Modelos/V/V.mp4';
                         const img111111111111111111111111 = document.createElement('img');
                         img111111111111111111111111.src = 'Modelos/V/FRONTAL.png';
-                        img111111111111111111111111.classList.add('Letra_Frontal'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img111111111111111111111111.classList.add('Letra_Frontal');
                         document.body.appendChild(img111111111111111111111111);
 
                         const img222222222222222222222222 = document.createElement('img');
                         img222222222222222222222222.src = 'Modelos/V/TRASERA.png';
-                        img222222222222222222222222.classList.add('Letra_Trasera'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img222222222222222222222222.classList.add('Letra_Trasera');
                         document.body.appendChild(img222222222222222222222222);
 
                         const img333333333333333333333333 = document.createElement('img');
                         img333333333333333333333333.src = 'Modelos/V/LATERAL2.png';
-                        img333333333333333333333333.classList.add('Letra_Derecha'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img333333333333333333333333.classList.add('Letra_Derecha');
                         document.body.appendChild(img333333333333333333333333);
 
                         const img4444444444444444444444444 = document.createElement('img');
                         img4444444444444444444444444.src = 'Modelos/V/LATERAL1.png';
-                        img4444444444444444444444444.classList.add('Letra_Izquierda'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img4444444444444444444444444.classList.add('Letra_Izquierda');
                         document.body.appendChild(img4444444444444444444444444);
                         break;
                     case 'W':
@@ -569,22 +568,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         const img1111111111111111111111111 = document.createElement('img');
                         img1111111111111111111111111.src = 'Modelos/W/FRONTAL.png';
-                        img1111111111111111111111111.classList.add('Letra_Frontal'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img1111111111111111111111111.classList.add('Letra_Frontal');
                         document.body.appendChild(img1111111111111111111111111);
 
                         const img2222222222222222222222222 = document.createElement('img');
                         img2222222222222222222222222.src = 'Modelos/W/TRASERA.png';
-                        img2222222222222222222222222.classList.add('Letra_Trasera'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img2222222222222222222222222.classList.add('Letra_Trasera');
                         document.body.appendChild(img2222222222222222222222222);
 
                         const img3333333333333333333333333 = document.createElement('img');
                         img3333333333333333333333333.src = 'Modelos/W/LATERAL1.png';
-                        img3333333333333333333333333.classList.add('Letra_Derecha'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img3333333333333333333333333.classList.add('Letra_Derecha');
                         document.body.appendChild(img3333333333333333333333333);
 
                         const img44444444444444444444444444 = document.createElement('img');
                         img44444444444444444444444444.src = 'Modelos/W/LATERAL2.png';
-                        img44444444444444444444444444.classList.add('Letra_Izquierda'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img44444444444444444444444444.classList.add('Letra_Izquierda');
                         document.body.appendChild(img44444444444444444444444444);
                         break;
                     case 'X':
@@ -592,22 +591,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         const img11111111111111111111111111 = document.createElement('img');
                         img11111111111111111111111111.src = 'Modelos/X/FRONTAL.png';
-                        img11111111111111111111111111.classList.add('Letra_Frontal'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img11111111111111111111111111.classList.add('Letra_Frontal');
                         document.body.appendChild(img11111111111111111111111111);
 
                         const img22222222222222222222222222 = document.createElement('img');
                         img22222222222222222222222222.src = 'Modelos/X/TRASERA.png';
-                        img22222222222222222222222222.classList.add('Letra_Trasera'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img22222222222222222222222222.classList.add('Letra_Trasera');
                         document.body.appendChild(img22222222222222222222222222);
 
                         const img33333333333333333333333333 = document.createElement('img');
                         img33333333333333333333333333.src = 'Modelos/X/LATERAL1.png';
-                        img33333333333333333333333333.classList.add('Letra_Derecha'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img33333333333333333333333333.classList.add('Letra_Derecha');
                         document.body.appendChild(img33333333333333333333333333);
 
                         const img444444444444444444444444444 = document.createElement('img');
                         img444444444444444444444444444.src = 'Modelos/X/LATERAL2.png';
-                        img444444444444444444444444444.classList.add('Letra_Izquierda'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img444444444444444444444444444.classList.add('Letra_Izquierda');
                         document.body.appendChild(img444444444444444444444444444);
                         break;
                     case 'Y':
@@ -615,22 +614,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         const img111111111111111111111111111 = document.createElement('img');
                         img111111111111111111111111111.src = 'Modelos/Y/FRONTAL.png';
-                        img111111111111111111111111111.classList.add('Letra_Frontal'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img111111111111111111111111111.classList.add('Letra_Frontal');
                         document.body.appendChild(img111111111111111111111111111);
 
                         const img222222222222222222222222222 = document.createElement('img');
                         img222222222222222222222222222.src = 'Modelos/Y/TRASERA.png';
-                        img222222222222222222222222222.classList.add('Letra_Trasera'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img222222222222222222222222222.classList.add('Letra_Trasera');
                         document.body.appendChild(img222222222222222222222222222);
 
                         const img333333333333333333333333333 = document.createElement('img');
                         img333333333333333333333333333.src = 'Modelos/Y/LATERAL1.png';
-                        img333333333333333333333333333.classList.add('Letra_Derecha'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img333333333333333333333333333.classList.add('Letra_Derecha');
                         document.body.appendChild(img333333333333333333333333333);
 
                         const img4444444444444444444444444444 = document.createElement('img');
                         img4444444444444444444444444444.src = 'Modelos/Y/LATERAL2.png';
-                        img4444444444444444444444444444.classList.add('Letra_Izquierda'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img4444444444444444444444444444.classList.add('Letra_Izquierda');
                         document.body.appendChild(img4444444444444444444444444444);
                         break;
                     case 'Z':
@@ -638,22 +637,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         const img1111111111111111111111111111 = document.createElement('img');
                         img1111111111111111111111111111.src = 'Modelos/Z/FRONTAL.png';
-                        img1111111111111111111111111111.classList.add('Letra_Frontal'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img1111111111111111111111111111.classList.add('Letra_Frontal');
                         document.body.appendChild(img1111111111111111111111111111);
 
                         const img2222222222222222222222222222 = document.createElement('img');
                         img2222222222222222222222222222.src = 'Modelos/Z/TRASERA.png';
-                        img2222222222222222222222222222.classList.add('Letra_Trasera'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img2222222222222222222222222222.classList.add('Letra_Trasera');
                         document.body.appendChild(img2222222222222222222222222222);
 
                         const img3333333333333333333333333333 = document.createElement('img');
                         img3333333333333333333333333333.src = 'Modelos/Z/LATERAL1.png';
-                        img3333333333333333333333333333.classList.add('Letra_Derecha'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img3333333333333333333333333333.classList.add('Letra_Derecha');
                         document.body.appendChild(img3333333333333333333333333333);
 
                         const img44444444444444444444444444444 = document.createElement('img');
                         img44444444444444444444444444444.src = 'Modelos/Z/LATERAL2.png';
-                        img44444444444444444444444444444.classList.add('Letra_Izquierda'); // Reemplaza 'mi-clase' con el nombre de la clase que desees asignar
+                        img44444444444444444444444444444.classList.add('Letra_Izquierda');
                         document.body.appendChild(img44444444444444444444444444444);
                         break;
                     default:
@@ -662,6 +661,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
 
                 videoPlayer.load();
+
+                img.src = images[i]; // Asigna la ruta de la imagen correspondiente
+                img.classList.add(`square-image-${alphabet[i]}`);
+                img.alt = `Letra ${alphabet[i]} en lenguaje de señas `; // Agrega el atributo alt con una descripción
+                square.appendChild(img);
             } else {
                 console.error('Elementos de video no encontrados');
             }
