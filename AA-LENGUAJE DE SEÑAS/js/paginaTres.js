@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const container = document.getElementById("cuadradosContainer");
 
-    const palabras = ["Gracias", "Hola", "Agua", "Mamá", "Perdon", "Popó", "Papá", "Comida", "Te amo"];
+    const palabras = ["Gracias", "Hola", "Agua", "Mamá", "Perdón", "Ayuda", "Papá", "Comida", "Amor"];
 
     for (let i = 0; i < palabras.length; i++) {
         const square = document.createElement("div");

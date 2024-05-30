@@ -29,22 +29,22 @@ document.addEventListener("DOMContentLoaded", function () {
                         videoSource.src = 'Modelos/Papa.mp4';
                         break;
                     case 'Hola':
-                        videoSource.src = 'Mdelos/G/G.mp4';
+                        videoSource.src = 'Modelos/Hola.mp4';
                         break;
                     case 'Perdón':
-                        videoSource.src = 'Mdelos/G/G.mp4';
+                        videoSource.src = 'Modelos/Perdon.mp4';
                         break;
                     case 'Comida':
-                        videoSource.src = 'Mdelos/G/G.mp4';
+                        videoSource.src = 'Modelos/Comida.mp4';
                         break;
                     case 'Agua':
-                        videoSource.src = 'Mdelos/G/G.mp4';
+                        videoSource.src = 'Modelos/Awa_.mp4';
                         break;
-                    case 'Te amo':
-                        videoSource.src = 'Mdelos/G/G.mp4';
+                    case 'Amor':
+                        videoSource.src = 'Modelos/Amor.mp4';
                         break;
-                    case 'Popó':
-                        videoSource.src = 'Mdelos/G/G.mp4';
+                    case 'Ayuda':
+                        videoSource.src = 'Modelos/Ayuda.mp4';
                         break;
                     default:
                         console.error('Palabra no reconocida');
